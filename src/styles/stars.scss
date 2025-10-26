@@ -22,6 +22,17 @@
       height: 16px;
     }
   }
+
+  &__reviews {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    color: $reviews-color-moni;
+  }
 }
 
 .stBlock-stars div:nth-child(-n + 4) {

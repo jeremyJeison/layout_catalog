@@ -55,11 +55,13 @@
   letter-spacing: 0%;
   display: block;
   margin-bottom: 4px;
-  color: rgba(6, 11, 53, 1);
+  color: $reviews-color-moni;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
 }
 
-.card:hover .nameProdact {
-  color: #34568b;
+.card:hover .card__.nameProdact {
+  color: $cardHoverNamePro;
 }
 
 .card__prodCode {
@@ -74,7 +76,7 @@
   color: $prod-code-color-text;
 }
 
-.prici {
+.card__prici {
   margin: 0;
   margin-inline: 16px;
   margin-bottom: 16px;
@@ -103,18 +105,7 @@
   }
 }
 
-.reviews {
-  font-family: Roboto, sans-serif;
-  margin: 0;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0%;
-  vertical-align: bottom;
-  color: $reviews-color-moni;
-}
-
-.BayButon-pop {
+.card__BayButon-pop {
   width: 166px;
   height: 40px;
   line-height: 40px;
@@ -135,7 +126,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.BayButon-pop:hover {
-  color: #00acdc;
-  background-color: #fff;
+.card__BayButon-pop:hover {
+  color: $backr-color-other;
+  background-color: $card-bakround-color-other;
 }
